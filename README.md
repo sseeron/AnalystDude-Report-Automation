@@ -7,7 +7,7 @@ Part of my daily job is to update company dashboards (several Excel xlsx files) 
 # How It Works
 1. Embed relevant SQL queries with PowerQuery add-on in Excel
 2. Use the VBA macro file (.xlsm) to automatically execute embedded queries and save the output as an xlsx file with the dashboard's date. (In my case, I'm always updating dashboard with end-of-day yesterday's data, so Dashboard has yesterday's date on it.)
-3. Running the Python script in this repo will first execute the macro file, and load the output xlsx file into gmail, and publish. The goal is "Push Button Publishing".
+3. Running the Python script (PublishButton.py) in this repo will first execute the macro file, and load the output xlsx file into gmail, and publish. The goal is "Push Button Publishing".
 
 # How you can use it
 1. Install <a href="https://www.python.org/downloads/">Python</a> environment on your computer.
