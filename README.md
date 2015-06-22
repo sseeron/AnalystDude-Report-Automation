@@ -11,10 +11,11 @@ Part of my daily job is to update company dashboards (several Excel xlsx files) 
 
 # How you can use it
 1. Install <a href="https://www.python.org/downloads/">Python</a> environment on your computer.
-2. Install PowerQuery as Excel Add-on. You can skip this and the next step if you have other ways of updating/generating Excel spreadsheet to be published.
+2. Install <a href="https://support.office.com/en-us/article/Introduction-to-Microsoft-Power-Query-for-Excel-6E92E2F4-2079-4E1F-BAD5-89F6269CD605">PowerQuery</a> as Excel Add-on. You can skip this and the next step if you have other ways of updating/generating Excel spreadsheet to be published.
 3. Load and organize SQL and its outputs in your spreadsheet according to your business needs.
-4. Tweak the attached macro file to your specific diectory/path, this should be consistent with the Python code
-5. Tweak the Python code to link both the macro file and output xlsx file. Specify your email inputs, namely: subject, recipients, text, password, etc.
+4. Tweak the attached macro_template file to your specific diectory/path, this should be consistent with the Python code
+5. Tweak the Python scripts to link both the macro file and output xlsx file. Specify your email inputs, namely: subject, recipients, text, password, etc.
+6. Run PublishButton.py, sit back and sip on your coffee.
 
 # Notes
 1. I'm an analyst and by no means a good programmer. I researched around for this project and used various people's code I found through Googling. (Goolge is your best friend when you have a question.)
